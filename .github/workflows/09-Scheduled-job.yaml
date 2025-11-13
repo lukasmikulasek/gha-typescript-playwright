@@ -1,4 +1,4 @@
-name: Run Playwright Tests with saved npm lts
+name: scheduled WF
 
 on:
   schedule:
