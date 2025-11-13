@@ -6,10 +6,10 @@ on:
 
 jobs:
   tests:
-    name: Containerized Testing
-    runs-on: ubuntu-latest
-    container:
-      image: mcr.microsoft.com/playwright:v1.56.1-noble  # Uses a Playwright pre-installed container.
+    - name: Containerized Testing
+      runs-on: ubuntu-latest
+      container:
+        image: mcr.microsoft.com/playwright:v1.56.1-noble  # Uses a Playwright pre-installed container.
 
     steps:
       - name: Checkout repository
